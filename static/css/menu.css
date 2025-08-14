@@ -1,0 +1,28 @@
+.menu{
+    max-width: max-content;
+    border:2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2.2rem;
+}
+
+.title{
+    width: 100%;
+    margin: 5px;
+}
+
+.content button {
+    border: none;
+    max-width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: lightgray;
+}

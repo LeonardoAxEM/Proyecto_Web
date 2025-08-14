@@ -1,0 +1,12 @@
+.content {
+    width: 1000px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 2rem 5rem;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

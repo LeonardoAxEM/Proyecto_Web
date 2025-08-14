@@ -1,10 +1,12 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="{% static 'CSS/page_sc.css' %}">
     <title>Sistemas de Comunicacion</title>
 </head>
 <body>
-    <b>{{practica.contenido_html}}</b>
+    <section class="content">{{practica.contenido_html|safe}}</section>
 </body>
 </html>
