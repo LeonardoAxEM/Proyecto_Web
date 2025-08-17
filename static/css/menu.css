@@ -15,6 +15,11 @@
     margin: 5px;
 }
 
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
 .content button {
     border: none;
     max-width: 100%;
